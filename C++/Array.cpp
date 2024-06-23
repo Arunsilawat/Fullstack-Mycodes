@@ -204,3 +204,55 @@ int main(){
 	}
 	cout<<"Highest marks:"<<high;
 }
+//-------------------------------------------------------------------------
+#include <iostream>
+using namespace std;
+int main(){
+//	int n,sum=0,high;
+//	cout<<"How many student are there in a class :";
+//	cin>>n;
+//	int mark[n];
+//	string name[n];
+//	
+//	for(int i=0;i<n;i++){
+//		cout<<"enter name of student "<<i+1<<" :";
+//		cin>>name[i];	
+//		cout<<"enter marks of student "<<i+1<<" :";
+//		cin>>mark[i];
+//		}
+//
+//	cout<<"array of student having "<<n<<" students = {"; 
+//	
+//	
+//	for(int i=0;i<n;i++){
+//		cout<<"["<<name[i]<<","<<mark[i]<<"]";
+//		if(mark[i]>high)
+//		high=mark[i];
+//	}
+//	cout<<"}\n";
+//	cout<<"hight:"<<high;
+//	
+//}
+//
+
+int n,high;
+cout<<"enter number:";
+cin>>n;
+string name[n];
+int marks[n];
+for(int i=0;i<n;i++){
+	cout<<"Enter name"<<i+1<<":"<<endl;
+	cin>>name[i];
+	cout<<"Enter marks"<<i+1<<":"<<endl;
+	cin>>marks[i];
+}
+cout<<"student having :"<<n<<"Student = {";
+for(int i=0;i<n;i++){
+	cout<<"["<<name[i]<<","<<marks[i]<<"]";
+	if(marks[i]>high){
+		high=marks[i];
+	}
+}
+cout<<"}"<<endl;
+cout<<"Highest marks:"<<high;
+}
