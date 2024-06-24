@@ -1,0 +1,17 @@
+
+body{
+    background-color: aqua;
+}
+
+.head1
+{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#head2{
+    color: red;
+    font-size: 40px;
+    background-color: yellow;
+}
