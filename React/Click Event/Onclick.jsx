@@ -7,8 +7,8 @@ const App=()=>{
     }
     const display2=(nm,snm)=>{
       alert("My Name :"+nm+" "+snm+" from Bhopal");
-    }
-  const App=()=>{
+    }}
+  const App1=()=>{
   
     const sum=(a,b)=>{
       alert(a+b);
@@ -39,4 +39,4 @@ const App=()=>{
     )
   }
   
-  export default App;
+  export default App1;
