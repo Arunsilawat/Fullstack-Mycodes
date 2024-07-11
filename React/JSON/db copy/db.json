@@ -1,0 +1,72 @@
+{
+  "cybrom": [
+    {
+      "id": "1",
+      "rollno": 121,
+      "name": "Arun",
+      "city": "Bhopal",
+      "fees": 59000
+    },
+    {
+      "id": "2",
+      "rollno": 122,
+      "name": "Ritu",
+      "city": "Pipariya",
+      "fees": 34900
+    },
+    {
+      "id": "3",
+      "rollno": 123,
+      "name": "Payal",
+      "city": "Indore",
+      "fees": 89099
+    },
+    {
+      "id": "35ae",
+      "rollno": "124",
+      "name": "Muskan",
+      "city": "sehore",
+      "fees": "4900099"
+    },
+    {
+      "id": "45cc",
+      "rollno": "125",
+      "name": "Rajesh",
+      "city": "Mumbai",
+      "fees": "7997"
+    },
+    {
+      "id": "4928",
+      "rollno": "126",
+      "name": "Sonam",
+      "city": "Raisen",
+      "fees": "121212"
+    },
+    {
+      "id": "2693",
+      "value": "128"
+    },
+    {
+      "id": "0718",
+      "value": "899988"
+    },
+    {
+      "id": "5e67",
+      "value": "344"
+    },
+    {
+      "id": "8c90",
+      "rollno": "70",
+      "name": "fdfdgf",
+      "city": "ss",
+      "fees": "1234"
+    },
+    {
+      "id": "e01f",
+      "rollno": "111",
+      "name": "Sobha",
+      "city": "Jabalpur",
+      "fees": "121212"
+    }
+  ]
+}
