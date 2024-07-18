@@ -1,27 +1,4 @@
-
-// import { BrowserRouter } from "react-router-dom";
-// import Box from "./Paper/Box";
-// import Layout from "./Paper/Component/Layout";
-
-// import { BrowserRouter,Routes,Route } from "react-router-dom";
-// const App=()=>{
-//   return(
-//     <>
-//     <BrowserRouter>
-//       <Routes>
-//         <Route path="/" element={<Layout/>}>
-
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//     <Layout/>
-//     </>
-//   )
-// }
-// export default App;
-
-//---------------------------------------------------------------------------------------
-
+  
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
