@@ -1,0 +1,39 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "emp_id": 101,
+      "name": "Arun",
+      "department": "HR",
+      "salary": 200000
+    },
+    {
+      "id": "2",
+      "emp_id": 102,
+      "name": "Chirag",
+      "department": "Emp",
+      "salary": 30000
+    },
+    {
+      "id": "3",
+      "emp_id": 103,
+      "name": "Deepak",
+      "department": "Officar",
+      "salary": 10000
+    },
+    {
+      "id": "4",
+      "emp_id": 104,
+      "name": "Roshani",
+      "department": "head",
+      "salary": 2909889
+    },
+    {
+      "id": "5",
+      "emp_id": 105,
+      "name": "Aman",
+      "department": "Team leed",
+      "salary": 26383838
+    }
+  ]
+}
