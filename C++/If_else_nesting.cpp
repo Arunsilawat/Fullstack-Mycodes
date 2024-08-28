@@ -26,3 +26,19 @@ int main(){
 		cout<<a<<" is second hight"<<endl;
 	}
 }
+
+
+// -----------------if else---------------------
+#include <iostream>
+using namespace std;
+int main(){
+	int m;
+	cout<<"enter an integer :";
+	cin>>m;
+	if(m>0)
+	cout<<"ok";
+	else if(m==0)
+	cout<<"bye";
+	else
+	cout<<"done";
+}
