@@ -3,10 +3,8 @@
 using namespace std;
 int main(){
 	int arr[6]={43,45,66,56,77,65};
-	
      int i=0;  
     int num=2;  
-
      while(i<6){
         arr[i]=num;
         num+=2;  

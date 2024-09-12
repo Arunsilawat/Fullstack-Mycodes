@@ -1,5 +1,4 @@
 
-
 const Collage=(props)=>{
     if(props.myVal){
         return(
