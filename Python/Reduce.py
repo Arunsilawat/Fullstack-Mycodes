@@ -3,7 +3,7 @@ from functools import reduce
 my_list=[10,23,43,22,65]
 def max_digit(x,y):
     if x>y:
-        return x
+        return x  
     else:
         return y
 print(functools.reduce(max_digit,my_list))
@@ -18,7 +18,7 @@ def max_digit(x,y):
         return y
 print(reduce(max_digit,my_list))
 
-#------------------minimam --------------------------------
+#--------------------------------------- minimam --------------------------------            
 # from functools import reduce
 my_list=[10,23,43,22,65]
 def min_digit(x,y):
