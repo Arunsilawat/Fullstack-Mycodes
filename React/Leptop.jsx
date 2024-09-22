@@ -158,74 +158,74 @@
 //          <Card.Link href="#">Another Link</Card.Link>
 //          </Card.Body>
 //          </Card>
-//        </Col>
+       </Col>
 
-//        <Col>
-//          <Card style={{ width: '18rem' }}>
-//          <img src="public/card5.jpg"  width="100%" height="200"/>
-//          <Card.Body>
-//          <Card.Title>Card Title</Card.Title>
-//          <Card.Text>
-//           Some quick example text to build.
-//          </Card.Text>
-//          </Card.Body>
-//          <Card.Body>
-//          <Card.Link href="#">Card Link</Card.Link>
-//          <Card.Link href="#">Another Link</Card.Link>
-//          </Card.Body>
-//          </Card>
-//        </Col>
+       <Col>
+         <Card style={{ width: '18rem' }}>
+         <img src="public/card5.jpg"  width="100%" height="200"/>
+         <Card.Body>
+         <Card.Title>Card Title</Card.Title>
+         <Card.Text>
+          Some quick example text to build.
+         </Card.Text>
+         </Card.Body>
+         <Card.Body>
+         <Card.Link href="#">Card Link</Card.Link>
+         <Card.Link href="#">Another Link</Card.Link>
+         </Card.Body>
+         </Card>
+       </Col>
 
-//        <Col>
-//          <Card style={{ width: '18rem' }}>
-//          <img src="public/card6.webp"  width="100%" height="200"/>
-//          <Card.Body>
-//          <Card.Title>Card Title</Card.Title>
-//          <Card.Text>
-//           Some quick example text to build.
-//          </Card.Text>
-//          </Card.Body>
-//          <Card.Body>
-//          <Card.Link href="#">Card Link</Card.Link>
-//          <Card.Link href="#">Another Link</Card.Link>
-//          </Card.Body>
-//          </Card>
-//        </Col>
-//       </Row>
+       <Col>
+         <Card style={{ width: '18rem' }}>
+         <img src="public/card6.webp"  width="100%" height="200"/>
+         <Card.Body>
+         <Card.Title>Card Title</Card.Title>
+         <Card.Text>
+          Some quick example text to build.
+         </Card.Text>
+         </Card.Body>
+         <Card.Body>
+         <Card.Link href="#">Card Link</Card.Link>
+         <Card.Link href="#">Another Link</Card.Link>
+         </Card.Body>
+         </Card>
+       </Col>
+      </Row>
       
-//     </Container>
-//     <br />
-//     <br />
-//     {/* --------------------------------card end ----------------------------- */}
+    </Container>
+    <br />
+    <br />
+    {/* --------------------------------card end ----------------------------- */}
 
-//      <Container>
-//      <Form>
-//       <Row className="mb-3">
-//         <Form.Group as={Col} controlId="formGridEmail">
-//           <Form.Label>Email</Form.Label>
-//           <Form.Control type="email" placeholder="Enter email" />
-//         </Form.Group>
+     <Container>
+     <Form>
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
 
-//         <Form.Group as={Col} controlId="formGridPassword">
-//           <Form.Label>Password</Form.Label>
-//           <Form.Control type="password" placeholder="Password" />
-//         </Form.Group>
-//       </Row>
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+      </Row>
 
-//       <Form.Group className="mb-3" controlId="formGridAddress1">
-//         <Form.Label>Address</Form.Label>
-//         <Form.Control placeholder="1234 Main St" />
-//       </Form.Group>
+      <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Address</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
 
-//       <Form.Group className="mb-3" controlId="formGridAddress2">
-//         <Form.Label>Address 2</Form.Label>
-//         <Form.Control placeholder="Apartment, studio, or floor" />
-//       </Form.Group>
+      <Form.Group className="mb-3" controlId="formGridAddress2">
+        <Form.Label>Address 2</Form.Label>
+        <Form.Control placeholder="Apartment, studio, or floor" />
+      </Form.Group>
 
-//       <Row className="mb-3">
-//         <Form.Group as={Col} controlId="formGridCity">
-//           <Form.Label>City</Form.Label>
-//           <Form.Control />
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridCity">
+          <Form.Label>City</Form.Label>
+          <Form.Control />
 //         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridState">
