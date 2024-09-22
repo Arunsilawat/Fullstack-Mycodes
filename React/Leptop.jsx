@@ -1,28 +1,28 @@
 // import Button from 'react-bootstrap/Button';
-// import Container from 'react-bootstrap/Container';
-// import Form from 'react-bootstrap/Form';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// //----------------------- Navbar ---------------------------------------
-// import Carousel from 'react-bootstrap/Carousel';
-// /* ---------------------------------carousel end ------------------------------------- */
-// import Card from 'react-bootstrap/Card';
-// //--------------------------- card end-----------------------------------
-// import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+//----------------------- Navbar ---------------------------------------
+import Carousel from 'react-bootstrap/Carousel';
+/* ---------------------------------carousel end ------------------------------------- */
+import Card from 'react-bootstrap/Card';
+//--------------------------- card end-----------------------------------
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+//-----------------------------------------------------------------
+// import Button from 'react-bootstrap/Button';
 // import Col from 'react-bootstrap/Col';
-// //-----------------------------------------------------------------
-// // import Button from 'react-bootstrap/Button';
-// // import Col from 'react-bootstrap/Col';
-// // import Form from 'react-bootstrap/Form';
-// // import Row from 'react-bootstrap/Row';
+// import Form from 'react-bootstrap/Form';
+// import Row from 'react-bootstrap/Row';
 
 
 
 
-// const App=()=>{
-//   return(
-//     <>
+const App=()=>{
+  return(
+    <>
           <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Arun Silawat</Navbar.Brand>
