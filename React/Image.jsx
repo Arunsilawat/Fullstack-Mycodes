@@ -48,7 +48,6 @@ import Col from 'react-bootstrap/Col';
 
 //               </Row>
 //         </Container>
-
         
 //         <Container className="bg-info p-4 ">
 //               <Row>
