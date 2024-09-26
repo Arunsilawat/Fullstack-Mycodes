@@ -35,5 +35,20 @@ int main(){
     cout<<i.first<<" "<<i.second<<endl;
   }
   cout<<endl;
-  
+  //--------------------unordered multimap--------------------
+
+  unordered_multimap<int,string>m2;
+
+  m2.insert({2,"banana"});
+  m2.insert({2,"apple"});
+  m2.insert({3,"mango"});
+  m2.insert({4,"mango"});
+  m2.insert(make_pair(2,"pineapple"));
+
+
+  cout<<endl;
+
+  for(auto i:m2){
+    cout<<i.first<<" "<<i.second<<endl;
+  }
 }
