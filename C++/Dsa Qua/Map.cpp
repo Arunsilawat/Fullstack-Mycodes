@@ -17,6 +17,23 @@ int main(){
     cout<<i.first<<" "<<i.second<<" ";
   }
    
-  
+  //------------------multimap-----------------------
+  //duplicate key allowed
+  cout<<endl;
+  multimap<int,string>m1;
+
+  m1.insert({2,"banana"});
+  m1.insert({2,"apple"});
+  m1.insert({3,"mango"});
+  m1.insert({4,"mango"});
+  m1.insert(make_pair(2,"pineapple"));
+
+
+  cout<<endl;
+
+  for(auto i:m1){
+    cout<<i.first<<" "<<i.second<<endl;
+  }
+  cout<<endl;
   
 }
