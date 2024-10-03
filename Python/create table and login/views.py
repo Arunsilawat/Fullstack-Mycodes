@@ -31,3 +31,13 @@ def register(request):
 
 def login(request):
     return render(request,'login.html')
+
+def all(request):
+    data=Student.objects.all()
+    data1=data.values()
+    return render(request,'dashboard.html',{'data':data1})
+
+def myfilter(request):
+    data=Student.objects.filter(stu_name="Arun")
+    data1=data.values()
+    return render(request,'dashboard.html',{'data':data1})
