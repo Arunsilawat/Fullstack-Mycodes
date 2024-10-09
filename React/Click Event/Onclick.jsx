@@ -7,7 +7,7 @@ const App=()=>{
     }
     const display2=(nm,snm)=>{
       alert("My Name :"+nm+" "+snm+" from Bhopal");
-    }}
+    }} 
   const App1=()=>{
   
     const sum=(a,b)=>{
