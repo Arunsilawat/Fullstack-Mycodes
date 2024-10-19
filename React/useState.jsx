@@ -1,18 +1,18 @@
 
 
-// const App=()=>{
-//   const getval=(e)=>{
-//     let nm=e.target.name;
-//     let val=e.target.value;
-//     alert("Name : " +nm +" Value :"+val)
-//   }
-//    return(
-//       <>
-//         enter name: <input type="text" name="stuname" value="Bhopal" onClick={getval} />
-//       </>
-//    )
-// }
-// export default App;
+const App=()=>{
+  const getval=(e)=>{
+    let nm=e.target.name;
+    let val=e.target.value;
+    alert("Name : " +nm +" Value :"+val)
+  }
+   return(
+      <>
+        enter name: <input type="text" name="stuname" value="Bhopal" onClick={getval} />
+      </>
+   )
+}
+export default App;
 //--------------------------------------------
 import { useState } from "react";
 // const App=()=>{
