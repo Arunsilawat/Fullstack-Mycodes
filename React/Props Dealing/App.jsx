@@ -60,30 +60,30 @@
 //------------------------------------------------------------
 // import { useRef } from "react";
 // const App=()=>{
-//     const myRef=useRef("")
-//     const red=useRef("")
-//     const yellow=useRef("")
-//     const blue=useRef("")
-//     const Display=()=>{
-//         myRef.current.style.backgroundColor="blue"
-//     }
-//     const Displayred=()=>{
-//         red.current.style.backgroundColor="red"
-//     }
-//     const Displayyellow=()=>{
-//         yellow.current.style.backgroundColor="yellow"
-//     }
-//     const Displayblue=()=>{
-//         blue.current.style.backgroundColor="blue"
-//     }
+    // const myRef=useRef("")
+    // const red=useRef("")
+    // const yellow=useRef("")
+    // const blue=useRef("")
+    // const Display=()=>{
+    //     myRef.current.style.backgroundColor="blue"
+    // }
+    // const Displayred=()=>{
+    //     red.current.style.backgroundColor="red"
+    // }
+    // const Displayyellow=()=>{
+    //     yellow.current.style.backgroundColor="yellow"
+    // }
+    // const Displayblue=()=>{
+    //     blue.current.style.backgroundColor="blue"
+    // }
 //     return(
 //         <>
-//         <h1>Welcome to React </h1>
-//          <input type="text"  ref={yellow} />
-//          <button onClick={Display}>Pink</button>
-//          <button onClick={Displayred}>Red</button>
-//          <button onClick={Displayyellow}>Yellow</button>
-//          <button onClick={Displayblue}>Blue</button>
+        // <h1>Welcome to React </h1>
+        //  <input type="text"  ref={yellow} />
+        //  <button onClick={Display}>Pink</button>
+        //  <button onClick={Displayred}>Red</button>
+        //  <button onClick={Displayyellow}>Yellow</button>
+        //  <button onClick={Displayblue}>Blue</button>
 //         </>
 //     )
 // }
