@@ -18,3 +18,19 @@ for i in lis:
     if i==i[ : :-1] and len(i)>2:
         lis1.append(i)
 print(lis1)
+
+
+# -----------------
+mydic={'name':'Arun','age':23,'city':"Bhopal"}
+
+for key,value in mydic.items():
+    print("key : ",{key} ,"value : ",{value})
+
+
+def arun(a=0,b=0,c=0):
+    return a+b+c 
+
+d=arun()
+print(d)
+
+ ** *
