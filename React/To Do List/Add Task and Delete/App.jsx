@@ -22,8 +22,7 @@ const App=()=>{
             <td>{key.task}</td>
             <a href="#">
             <button onClick={()=>{deletedata(key.id)}}>Delete</button>
-            </a>
-           
+            </a>         
           </tr>
          </>
       )
